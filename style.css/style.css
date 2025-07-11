@@ -103,8 +103,34 @@ section button{
 .section-description p{
     font-size: 24px;
 }
+/* user style */
+.user-container{
+    background-color: rgb(167, 167, 167);
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+    margin: 80px;
+}
+.user-container h1{
+    font-size: 35px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    
+}
+.user h1{
+    font-size: 80px;
+    margin: 0;
+    color: blue;
 
-
+}
+.user p{
+    color: rgb(66, 66, 66);
+    padding-bottom: 10px;
+}
 
 
 
