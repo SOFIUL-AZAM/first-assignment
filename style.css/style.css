@@ -138,6 +138,20 @@ section button{
     padding-bottom: 10px;
 }
 
+/* focus style */
+
+.section-focus{
+    margin: 80px ;
+    text-align: center;
+    box-shadow: 2px 2px 3px 2px rgb(175, 173, 173);
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.focus h2 {
+    font-size: 50px;
+    height: 20px;
+}
+
 /* box section */
 
 .box-container{
@@ -151,7 +165,7 @@ section button{
 }
 .box{
     display: flex;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
     padding: 10px 10px;
     
@@ -168,6 +182,7 @@ section button{
 .box-shadow{
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     padding: 15px 15px;
+    border-radius: 10px;
 }
 
 /* form section */
