@@ -78,7 +78,6 @@ nav a{
 /* main style */
 
 main{
-    background-color: rgb(215, 215, 255);
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -112,7 +111,7 @@ section button{
 }
 /* user style */
 .user-container{
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(238, 238, 238);
     text-align: center;
     border-radius: 15px;
     padding-top: 10px;
@@ -174,10 +173,12 @@ section button{
 /* form section */
 .info-section{
     margin: 80;
+    
 }
 
 .section-title{
     font-size: 40px;
+    
 }
 .info-column{
     padding: 130px 230px;
@@ -193,6 +194,7 @@ section button{
     width: 100%;
     margin-bottom: 24px;
     border: none;
+    box-shadow: 2px 2px 2px 2px rgb(187, 187, 187);
 }
 
 .btn-info{ 
