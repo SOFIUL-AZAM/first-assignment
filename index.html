@@ -6,19 +6,19 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css/style.css">
 </head>
 <body class="raleway">
     <header class="header">
         <nav>
             <h2 class="inter">LOGO</h2>
-            <button><a href="">Sign Up</a></button>
+            <button class="btn"><a href="">Sign Up</a></button>
         </nav>
 
         <div class="banner">
             <h2>Cool Dark UI Template for Webflow Agencies!</h2>
-            <button class="banner-button">Stay Focused</button>
+            <button class="banner-button btn">Stay Focused</button>
         </div>
     </header>
 
@@ -27,7 +27,7 @@
              <div class="section-description">
                 <h1>See It in Action</h1>
             <p>Explore the live preview and imagine your brand in this bold new look.</p>
-            <button>Launch Live Preview</button>
+            <button class="btn">Launch Live Preview</button>
             </div>
             <div>
                 <img src="../Assets/wc-mini.png" alt="">
@@ -105,6 +105,34 @@
                 </div>
             </div>
         </section>
+
+        <section class="info-section">
+            <div class="info-column">
+            <h3 class="section-title">Let’s Get in Touch</h3>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="" id="name" placeholder="Your Name">
+                <label for="email">Email</label>
+                <input type="email" name="" id="email" placeholder="abc@gamil.com">
+                <label for="text">Your Message</label>
+                <textarea name="" id="text" cols="35" rows="20" placeholder="Your Message"></textarea>
+                <input class="btn-info btn" type="submit" value="Get in Touch">
+            </form>
+        </div>
+        </section>
     </main>
+
+    <footer class="footer-contaier">
+        <div class="footer-title">
+            <h1>LOGO</h1>
+            <p>Ready to elevate your online presence? Contact us today to discuss<br> your project and discover how we can bring your vision to life.</p>
+            <ul class="unorder-list">
+                <li><a class="btn" href="link">Home</a></li>
+                <li><a class="btn" href="link">About</a></li>
+                <li><a class="btn" href="link">How it Works</a></li>
+                <li><a class="btn" href="link">Services</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
